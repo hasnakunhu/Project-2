@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook Suite]">
+  <listeners>
+    <listener class-name="listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Login test(failed)">
+    <classes>
+      <class name="com.qtpselenium.testcases.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="init"/>
+          <include name="findFriend"/>
+        </methods>
+      </class> <!-- com.qtpselenium.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Login test(failed) -->
+  <test name="UploadPic test(failed)">
+    <classes>
+      <class name="com.qtpselenium.testcases.LoginTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.qtpselenium.testcases.LoginTest -->
+      <class name="com.qtpselenium.testcases.UploadPic">
+        <methods>
+          <include name="uploadPic"/>
+        </methods>
+      </class> <!-- com.qtpselenium.testcases.UploadPic -->
+    </classes>
+  </test> <!-- UploadPic test(failed) -->
+</suite> <!-- Failed suite [Facebook Suite] -->

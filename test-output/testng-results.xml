@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Facebook Suite" duration-ms="603" started-at="2015-08-24T14:04:05Z" finished-at="2015-08-24T14:04:06Z">
+    <groups>
+    </groups>
+    <test name="Login test" duration-ms="385" started-at="2015-08-24T14:04:05Z" finished-at="2015-08-24T14:04:06Z">
+      <class name="com.qtpselenium.testcases.LoginTest">
+        <test-method status="SKIP" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.testcases.LoginTest@1411104]" name="loginTest" duration-ms="1" started-at="2015-08-24T15:04:06Z" data-provider="getLoginData" finished-at="2015-08-24T15:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=its.thakur@gmail.com, Data_Flag=N, Password=ashish1234, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.qtpselenium.testcases.LoginTest@1411104]" name="loginTest" duration-ms="1" started-at="2015-08-24T15:04:06Z" data-provider="getLoginData" finished-at="2015-08-24T15:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=its.thakur@gmail.com, Data_Flag=Y, Password=ashish123, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="findFriend()[pri:0, instance:com.qtpselenium.testcases.LoginTest@1411104]" name="findFriend" duration-ms="55" started-at="2015-08-24T15:04:06Z" depends-on-methods="com.qtpselenium.testcases.LoginTest.loginTest" finished-at="2015-08-24T15:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFriend -->
+      </class> <!-- com.qtpselenium.testcases.LoginTest -->
+    </test> <!-- Login test -->
+    <test name="UploadPic test" duration-ms="6" started-at="2015-08-24T14:04:06Z" finished-at="2015-08-24T14:04:06Z">
+      <class name="com.qtpselenium.testcases.LoginTest">
+        <test-method status="FAIL" signature="init()[pri:0, instance:com.qtpselenium.testcases.LoginTest@1411104]" name="init" is-config="true" duration-ms="0" started-at="2015-08-24T15:03:04Z" finished-at="2015-08-24T15:03:04Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+add-on ID: C:\Users\Kunhu\AppData\Local\Temp\anonymous5679999122363729973webdriver-profile\extensions\webdriver-staging
+1440425002398	addons.xpi	WARN	Failed to add registry install location winreg-app-user: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.initWithPath]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: RegInstallLocation__readAddons :: line 7614"  data: no] Stack trace: RegInstallLocation__readAddons()@resource://gre/modules/addons/XPIProvider.jsm:7614 < WinRegInstallLocation()@resource://gre/modules/addons/XPIProvider.jsm:7573 < addRegistryInstallLocation()@resource://gre/modules/addons/XPIProvider.jsm:1992 < XPI_startup()@resource://gre/modules/addons/XPIProvider.jsm:2037 < callProvider()@resource://gre/modules/AddonManager.jsm:208 < _startProvider()@resource://gre/modules/AddonManager.jsm:667 < AMI_startup()@resource://gre/modules/AddonManager.jsm:824 < AMP_startup()@resource://gre/modules/AddonManager.jsm:2402 < AMC_observe()@resource://gre/components/addonManager.js:55 < <file:unknown>
+1440425002400	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1440425002401	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1440425002401	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1440425002401	addons.xpi	WARN	Ignoring missing add-on in C:\Program Files\Iminent\webbooster@iminent.com
+1440425002402	addons.xpi	INFO	Mapping fiddlerhook@fiddler2.com to C:\Program Files\Fiddler2\FiddlerHook
+1440425002402	addons.xpi	INFO	Mapping wrc@avast.com to C:\Program Files\AVAST Software\Avast\WebRep\FF
+1440425002403	addons.xpi	DEBUG	checkForChanges
+1440425002404	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Kunhu\\AppData\\Local\\Temp\\anonymous5679999122363729973webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.25.0","st":1440424990215,"mt":1440424989285}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"37.0.1","st":1428345432440,"mt":1428033983000}},"winreg-app-global":{"fiddlerhook@fiddler2.com":{"d":"C:\\Program Files\\Fiddler2\\FiddlerHook","e":false,"v":"2.4.9.7","st":1438873444933,"mt":1416625068000},"wrc@avast.com":{"d":"C:\\Program Files\\AVAST Software\\Avast\\WebRep\\FF","e":false,"v":"10.2.0.187","st":1437418384159,"mt":1437418342601}}}
+1440425002405	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1440425002408	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Kunhu\\AppData\\Local\\Temp\\anonymous5679999122363729973webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.25.0","st":1440424990215,"mt":1440424989285}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"37.0.1","st":1428345432440,"mt":1428033983000}},"winreg-app-global":{"fiddlerhook@fiddler2.com":{"d":"C:\\Program Files\\Fiddler2\\FiddlerHook","e":false,"v":"2.4.9.7","st":1438873444933,"mt":1416625068000},"wrc@avast.com":{"d":"C:\\Program Files\\AVAST Software\\Avast\\WebRep\\FF","e":false,"v":"10.2.0.187","st":1437418384159,"mt":1437418342601}}}
+1440425002411	addons.xpi	DEBUG	No changes found
+1440425002416	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1440425002417	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1440425002420	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1440425002421	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1440425011311	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 21:09:54'
+System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_40'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+add-on ID: C:\Users\Kunhu\AppData\Local\Temp\anonymous5679999122363729973webdriver-profile\extensions\webdriver-staging
+1440425002398	addons.xpi	WARN	Failed to add registry install location winreg-app-user: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.initWithPath]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: RegInstallLocation__readAddons :: line 7614"  data: no] Stack trace: RegInstallLocation__readAddons()@resource://gre/modules/addons/XPIProvider.jsm:7614 < WinRegInstallLocation()@resource://gre/modules/addons/XPIProvider.jsm:7573 < addRegistryInstallLocation()@resource://gre/modules/addons/XPIProvider.jsm:1992 < XPI_startup()@resource://gre/modules/addons/XPIProvider.jsm:2037 < callProvider()@resource://gre/modules/AddonManager.jsm:208 < _startProvider()@resource://gre/modules/AddonManager.jsm:667 < AMI_startup()@resource://gre/modules/AddonManager.jsm:824 < AMP_startup()@resource://gre/modules/AddonManager.jsm:2402 < AMC_observe()@resource://gre/components/addonManager.js:55 < <file:unknown>
+1440425002400	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1440425002401	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1440425002401	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1440425002401	addons.xpi	WARN	Ignoring missing add-on in C:\Program Files\Iminent\webbooster@iminent.com
+1440425002402	addons.xpi	INFO	Mapping fiddlerhook@fiddler2.com to C:\Program Files\Fiddler2\FiddlerHook
+1440425002402	addons.xpi	INFO	Mapping wrc@avast.com to C:\Program Files\AVAST Software\Avast\WebRep\FF
+1440425002403	addons.xpi	DEBUG	checkForChanges
+1440425002404	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Kunhu\\AppData\\Local\\Temp\\anonymous5679999122363729973webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.25.0","st":1440424990215,"mt":1440424989285}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"37.0.1","st":1428345432440,"mt":1428033983000}},"winreg-app-global":{"fiddlerhook@fiddler2.com":{"d":"C:\\Program Files\\Fiddler2\\FiddlerHook","e":false,"v":"2.4.9.7","st":1438873444933,"mt":1416625068000},"wrc@avast.com":{"d":"C:\\Program Files\\AVAST Software\\Avast\\WebRep\\FF","e":false,"v":"10.2.0.187","st":1437418384159,"mt":1437418342601}}}
+1440425002405	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1440425002408	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Kunhu\\AppData\\Local\\Temp\\anonymous5679999122363729973webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.25.0","st":1440424990215,"mt":1440424989285}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"37.0.1","st":1428345432440,"mt":1428033983000}},"winreg-app-global":{"fiddlerhook@fiddler2.com":{"d":"C:\\Program Files\\Fiddler2\\FiddlerHook","e":false,"v":"2.4.9.7","st":1438873444933,"mt":1416625068000},"wrc@avast.com":{"d":"C:\\Program Files\\AVAST Software\\Avast\\WebRep\\FF","e":false,"v":"10.2.0.187","st":1437418384159,"mt":1437418342601}}}
+1440425002411	addons.xpi	DEBUG	No changes found
+1440425002416	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1440425002417	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1440425002420	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1440425002421	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1440425011311	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 21:09:54'
+System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_40'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:121)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:109)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:185)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:178)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:174)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:92)
+	at com.qtpselenium.testcases.TestBase.initDriver(TestBase.java:49)
+	at com.qtpselenium.testcases.LoginTest.init(LoginTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+add-on ID: C:\Users\Kunhu\AppData\Local\Temp\anonymous5679999122363729973webdriver-profile\extensions\webdriver-staging
+1440425002398	addons.xpi	WARN	Failed to add registry install location winreg-app-user: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.initWithPath]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: RegInstallLocation__readAddons :: line 7614"  data: no] Stack trace: RegInstallLocation__readAddons()@resource://gre/modules/addons/XPIProvider.jsm:7614 < WinRegInstallLocation()@resource://gre/modules/addons/XPIProvider.jsm:7573 < addRegistryInstallLocation()@resource://gre/modules/addons/XPIProvider.jsm:1992 < XPI_startup()@resource://gre/modules/addons/XPIProvider.jsm:2037 < callProvider()@resource://gre/modules/AddonManager.jsm:208 < _startProvider()@resource://gre/modules/AddonManager.jsm:667 < AMI_startup()@resource://gre/modules/AddonManager.jsm:824 < AMP_startup()@resource://gre/modules/AddonManager.jsm:2402 < AMC_observe()@resource://gre/components/addonManager.js:55 < <file:unknown>
+1440425002400	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1440425002401	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1440425002401	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1440425002401	addons.xpi	WARN	Ignoring missing add-on in C:\Program Files\Iminent\webbooster@iminent.com
+1440425002402	addons.xpi	INFO	Mapping fiddlerhook@fiddler2.com to C:\Program Files\Fiddler2\FiddlerHook
+1440425002402	addons.xpi	INFO	Mapping wrc@avast.com to C:\Program Files\AVAST Software\Avast\WebRep\FF
+1440425002403	addons.xpi	DEBUG	checkForChanges
+1440425002404	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Kunhu\\AppData\\Local\\Temp\\anonymous5679999122363729973webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.25.0","st":1440424990215,"mt":1440424989285}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"37.0.1","st":1428345432440,"mt":1428033983000}},"winreg-app-global":{"fiddlerhook@fiddler2.com":{"d":"C:\\Program Files\\Fiddler2\\FiddlerHook","e":false,"v":"2.4.9.7","st":1438873444933,"mt":1416625068000},"wrc@avast.com":{"d":"C:\\Program Files\\AVAST Software\\Avast\\WebRep\\FF","e":false,"v":"10.2.0.187","st":1437418384159,"mt":1437418342601}}}
+1440425002405	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1440425002408	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Kunhu\\AppData\\Local\\Temp\\anonymous5679999122363729973webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.25.0","st":1440424990215,"mt":1440424989285}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"37.0.1","st":1428345432440,"mt":1428033983000}},"winreg-app-global":{"fiddlerhook@fiddler2.com":{"d":"C:\\Program Files\\Fiddler2\\FiddlerHook","e":false,"v":"2.4.9.7","st":1438873444933,"mt":1416625068000},"wrc@avast.com":{"d":"C:\\Program Files\\AVAST Software\\Avast\\WebRep\\FF","e":false,"v":"10.2.0.187","st":1437418384159,"mt":1437418342601}}}
+1440425002411	addons.xpi	DEBUG	No changes found
+1440425002416	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1440425002417	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1440425002420	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1440425002421	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1440425011311	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:109)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- com.qtpselenium.testcases.LoginTest -->
+      <class name="com.qtpselenium.testcases.UploadPic">
+        <test-method status="SKIP" signature="uploadPic()[pri:0, instance:com.qtpselenium.testcases.UploadPic@17cc8df]" name="uploadPic" duration-ms="2" started-at="2015-08-24T15:04:06Z" finished-at="2015-08-24T15:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadPic -->
+      </class> <!-- com.qtpselenium.testcases.UploadPic -->
+    </test> <!-- UploadPic test -->
+  </suite> <!-- Facebook Suite -->
+</testng-results>
